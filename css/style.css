@@ -198,6 +198,24 @@ main{
     color: green;
 }
 
+/* pagination start here  */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-btn{
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+}
+.pagination-btn:first-child{
+    border-left: 1px solid;
+}
+
+/* pagination end here  */
+
+
 /* main end here  */
 
 /* header starts here  */

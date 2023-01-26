@@ -57,6 +57,24 @@ img{
 .cart:hover{
     box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.1)
 }
+.hr-design{
+    margin: 0.5rem 0;
+}
+.dot{
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
 /* reset code and common ends here  */
 
 /* navbar start here  */

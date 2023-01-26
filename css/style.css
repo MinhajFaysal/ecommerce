@@ -276,6 +276,26 @@ main{
 .cart-payment{
     flex: 1;
 }
+
+.cart-payment-summary > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.cart-payment-btn{
+    width: 100%;
+}
+.cart-payment-methods h2{
+    text-align: center;
+}
+.cart-payment-methods > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+    ;
+}
 /* cart design end here  */
 
 

@@ -212,9 +212,25 @@ main{
 .pagination-btn:first-child{
     border-left: 1px solid;
 }
-
 /* pagination end here  */
 
+/* product details start here  */
+
+.product-details-left{
+    flex: 1;
+}
+.product-details-left img{
+   height: 20rem;
+   width: 30rem;
+}
+.product-details-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+
+/* product details end here  */
 
 /* main end here  */
 

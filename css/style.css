@@ -356,7 +356,10 @@ main{
 }
 .products{
     grid-template-columns: repeat(2, minmax(0,1fr));
-}   
+}  
+.cart-items, .cart-payment{
+    width: 90%;
+} 
 }
 @media (max-width: 768px) {
 .flex-center{

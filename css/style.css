@@ -85,6 +85,10 @@ img{
 .text-center{
     text-align: center;
 }
+
+.section-title{
+    font-size: 2rem;
+}
 /* reset code and common ends here  */
 
 /* navbar start here  */
@@ -301,8 +305,9 @@ main{
 }
 /* cart design end here  */
 
-/* Registration start here  */
-.register{
+/* Registration and Login start here  */
+.register, 
+.login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,7 +315,8 @@ main{
     gap: 3rem;
     min-height: 60vh;
 }
-.register .card{
+.register .card,
+.login .card{
     width: 45rem;
 }
 .form{
@@ -339,8 +345,28 @@ textarea{
 .contact-btn{
     width: 30%;
 }
+/* Registration and Login end here  */
 
-/* Registration end here  */
+/* Profile start here  */
+.profile{
+    flex-direction: column;
+    gap: 3rem;
+}
+.profile .card{
+    padding: var(--padding);
+    width: 30rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.profile-img{
+    width: 15vh;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.profile-buttons button{
+    background-color: transparent;
+}
+/* Profile end here  */
 
 /* main end here  */
 
